@@ -24,10 +24,12 @@ main {
 }
 
 .status-card {
-    background: #181818;
-    padding: 30px;
+    max-width: 500px;
+    margin: 35px auto 25px;
+    padding: 22px;
+    text-align: center;
+    background: #171717;
     border-radius: 12px;
-    margin-bottom: 30px;
 }
 
 .buttons {
