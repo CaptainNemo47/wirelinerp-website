@@ -102,13 +102,12 @@ main {
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-family: "Racing Sans One", sans-serif;
-    font-size: 28px;
-    font-weight: 400;
-    font-style: italic;
-    letter-spacing: -1px;
-    text-transform: uppercase;
+}
+
+.nav-logo img {
+    height: 52px;
+    width: auto;
+    display: block;
 }
 
 .nav-links {
