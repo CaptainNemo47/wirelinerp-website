@@ -128,21 +128,3 @@ main {
 html {
     scroll-behavior: smooth;
 }
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 24px;
-    font-weight: 800;
-}
-
-.electric-bolt {
-    color: #00aaff;
-    font-size: 30px;
-    text-shadow:
-        0 0 5px #00aaff,
-        0 0 10px #00aaff,
-        0 0 20px #008cff,
-        0 0 30px #006eff;
-}
