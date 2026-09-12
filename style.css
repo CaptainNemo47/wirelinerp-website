@@ -192,7 +192,7 @@ html {
 }
 
 .side-menu {
-    position: fixed;
+    position: absolute;
     right: 20px;
     top: 430px;
     z-index: 900;
@@ -237,7 +237,7 @@ html {
 }
 
 .quick-menu {
-    position: fixed;
+    position: absolute;
     left: 20px;
     top: 620px;
     z-index: 900;
