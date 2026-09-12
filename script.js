@@ -1,5 +1,5 @@
 const SERVER_IP = "wirelinerp.nodecraft.gg:30120";
-const SERVER_STATUS_URL = `http://${SERVER_IP}/dynamic.json`;
+const SERVER_STATUS_URL = "https://wirelinerp-status.nlee342905.workers.dev/";
 const DISCORD_URL = "YOUR_DISCORD_LINK";
 const APPLY_URL = "YOUR_APPLICATION_LINK";
 
