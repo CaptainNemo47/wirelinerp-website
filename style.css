@@ -164,11 +164,12 @@ html {
 
 .feature-card {
     background: #171717;
-    border: 1px solid #252525;
+    border: 1px solid #0077ff;
     border-radius: 12px;
     padding: 35px 25px;
     min-height: 150px;
     transition: 0.25s ease;
+    box-shadow: 0 0 18px rgba(0, 119, 255, 0.35);
 }
 
 .feature-card:hover {
