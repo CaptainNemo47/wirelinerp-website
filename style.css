@@ -235,3 +235,48 @@ html {
     box-shadow: 0 0 12px rgba(0, 140, 255, 0.35);
     transform: translateX(-4px);
 }
+
+.quick-menu {
+    position: fixed;
+    left: 20px;
+    top: 620px;
+    z-index: 900;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    width: 175px;
+    padding: 18px;
+
+    background: rgba(10, 10, 10, 0.94);
+    border: none;
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+.quick-menu h3 {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 0 8px;
+}
+
+.quick-menu a {
+    color: #b8b8b8;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 7px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+
+.quick-menu a:hover {
+    color: #ffffff;
+    background: rgba(0, 140, 255, 0.12);
+    border-color: #008cff;
+    box-shadow: 0 0 12px rgba(0, 140, 255, 0.35);
+    transform: translateX(4px);
+}
