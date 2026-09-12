@@ -194,8 +194,8 @@ html {
 .side-menu {
     position: fixed;
     right: 18px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 430px;
+    transform: none;
     z-index: 999;
 
     display: flex;
