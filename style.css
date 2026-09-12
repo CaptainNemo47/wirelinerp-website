@@ -104,9 +104,10 @@ main {
     gap: 8px;
     font-size: 27px;
     font-weight: 900;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: "Arial Black", "Arial Narrow", sans-serif;
     font-style: italic;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
+    transform: skewX(-10deg) scaleY(1.15);
     text-transform: uppercase;
 }
 
