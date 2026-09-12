@@ -239,7 +239,7 @@ html {
 .quick-menu {
     position: absolute;
     left: 20px;
-    top: 620px;
+    top: 430px;
     z-index: 900;
 
     display: flex;
