@@ -85,3 +85,39 @@ main {
     justify-content: center;
     gap: 15px;
 }
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background: rgba(10, 10, 10, 0.95);
+    border-bottom: 1px solid #222;
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
