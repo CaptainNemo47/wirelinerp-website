@@ -236,3 +236,24 @@ html {
     box-shadow: 0 0 12px rgba(0, 140, 255, 0.35);
     transform: translateX(-4px);
 }
+
+.side-menu {
+    position: absolute !important;
+    top: 700px !important;
+    right: 20px !important;
+    transform: none !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+
+    width: 175px !important;
+    padding: 18px !important;
+
+    background: rgba(10, 10, 10, 0.94) !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 12px !important;
+    z-index: 900;
+}
