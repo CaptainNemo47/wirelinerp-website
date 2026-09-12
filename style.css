@@ -103,12 +103,11 @@ main {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 27px;
-    font-weight: 900;
-    font-family: "Arial Black", "Arial Narrow", sans-serif;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
     font-style: italic;
-    letter-spacing: -2px;
-    transform: skewX(-10deg) scaleY(1.15);
+    letter-spacing: -1px;
     text-transform: uppercase;
 }
 
