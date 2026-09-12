@@ -14,7 +14,7 @@ async function checkServer() {
 
         document.getElementById("server-status").textContent = "Online";
         document.getElementById("player-count").textContent =
-            `Players: ${data.clients} / ${data.sv_maxclients}`;
+            `Players: ${data.clients} / ${data.maxClients}`;
     } catch (error) {
         document.getElementById("server-status").textContent = "Offline";
         document.getElementById("player-count").textContent = "Players: -- / --";
