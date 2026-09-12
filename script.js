@@ -4,6 +4,7 @@ const DISCORD_URL = "YOUR_DISCORD_LINK";
 const APPLY_URL = "YOUR_APPLICATION_LINK";
 
 document.getElementById("discord-link").href = DISCORD_URL;
+document.getElementById("discord-nav").href = DISCORD_URL;
 document.getElementById("apply-link").href = APPLY_URL;
 document.getElementById("join-server").href = `fivem://connect/${SERVER_IP}`;
 
