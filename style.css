@@ -425,3 +425,51 @@ html {
         grid-template-columns: 1fr;
     }
 }
+.car-lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.92);
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px;
+}
+
+.car-lightbox.active {
+    display: flex;
+}
+
+.car-lightbox img {
+    max-width: 90%;
+    max-height: 85vh;
+
+    object-fit: contain;
+
+    border-radius: 12px;
+
+    border: 1px solid #008cff;
+
+    box-shadow:
+        0 0 25px rgba(0, 140, 255, 0.65),
+        0 0 60px rgba(0, 140, 255, 0.25);
+}
+
+.car-lightbox-close {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.vehicle-card {
+    cursor: pointer;
+}
