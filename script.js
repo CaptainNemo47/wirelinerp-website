@@ -26,3 +26,19 @@ async function checkServer() {
 
 checkServer();
 setInterval(checkServer, 30000);
+
+function openCarImage(image) {
+
+    const lightbox = document.getElementById("car-lightbox");
+    const lightboxImage = document.getElementById("car-lightbox-image");
+
+    lightboxImage.src = image;
+    lightbox.classList.add("active");
+}
+
+function closeCarImage() {
+
+    const lightbox = document.getElementById("car-lightbox");
+
+    lightbox.classList.remove("active");
+}
